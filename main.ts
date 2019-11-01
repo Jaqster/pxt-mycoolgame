@@ -17,3 +17,6 @@ f b b f f f e e e e f f f b b f
 . . . f f 1 d 1 d 1 d f f . . . 
 . . . . . f f b b f f . . . . . 
 `, SpriteKind.Player)
+controller.moveSprite(mySprite)
+music.baDing.play()
+info.startCountdown(10)
